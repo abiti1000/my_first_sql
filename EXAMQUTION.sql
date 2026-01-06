@@ -106,4 +106,5 @@ S.name AS Student_Name,
 FROM STUDENT S
 JOIN STUDENTEXAM SE ON S.stud_id = SE.stud_id
 JOIN EXAM E ON SE.exam_id = E.exam_id
+
 ORDER BY Percentage_Score DESC;
